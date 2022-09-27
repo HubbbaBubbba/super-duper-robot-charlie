@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Uncial+Antiqua&display=swap');
+
+
+h3 {
+  font-family: 'Uncial Antiqua', cursive;
+  color: gold;
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+  color: gold;
+}
+
+body {
+  background-color:#638d79;
+  background-image: url('https://barbend.com/wp-content/uploads/2022/08/Untitled-design-2022-08-23T124330.548.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#dogeTwo {
+    float: left;
+    width:  700px;
+    height: 674px;
+    border: 20px solid gold;
+    border-radius: 200px;
+    object-fit: cover;
+}
+#dogeOne {
+  float: left;
+  width:  560
+  px;
+  height: 674px;
+  border: 20px solid gold;
+  border-radius: 200px;
+  filter: grayscale(100%);
+  object-fit: cover;
+}
+
+#outputDiv {
+  display: none;
+} 
+
+#outputMsg {
+  
+}
+#row{
+  text-align: center;
+  border: 3px solid rgb(0, 26, 255);
+}
